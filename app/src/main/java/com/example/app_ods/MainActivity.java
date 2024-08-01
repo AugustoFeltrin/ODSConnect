@@ -60,6 +60,51 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton btnODS6 = findViewById(R.id.btnODS6);
+        btnODS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods6.class);
+                startActivity(telaLin);
+            }
+        });
+
+        ImageButton btnODS7 = findViewById(R.id.btnODS7);
+        btnODS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods7.class);
+                startActivity(telaLin);
+            }
+        });
+
+        ImageButton btnODS8 = findViewById(R.id.btnODS8);
+        btnODS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods8.class);
+                startActivity(telaLin);
+            }
+        });
+
+        ImageButton btnODS9 = findViewById(R.id.btnODS9);
+        btnODS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods9.class);
+                startActivity(telaLin);
+            }
+        });
+
+        ImageButton btnODS10 = findViewById(R.id.btnODS10);
+        btnODS15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods10.class);
+                startActivity(telaLin);
+            }
+        });
+
         Button btnSair = findViewById(R.id.btnSair);
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
