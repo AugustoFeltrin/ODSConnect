@@ -1,6 +1,6 @@
 ## 🌎 ODS-Connect 🌐
 
-Bem-vindo ao ODS-Connect, um projeto de aplicativo android desenvolvido em Java. Esta aplicativo foi desenvolvida como parte do terceiro ano no [Senac Distrito Criativo](https://github.com/senacrs-emti). Neste APP você pode visualizar os principais objetivos.
+Bem-vindo ao ODS-Connect, um projeto de aplicativo android desenvolvido em Java. Esta aplicativo foi desenvolvida como parte do terceiro ano no [Senac Distrito Criativo](https://github.com/senacrs-emti). Neste APP você pode visualizar os principais objetivos da ONU.
 
 
 ## 📚 Alunos
