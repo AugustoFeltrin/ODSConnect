@@ -15,6 +15,51 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageButton btnODS1 = findViewById(R.id.btnODS1);
+        btnODS1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin1 = new Intent(getApplicationContext(),ods1.class);
+                startActivity(telaLin1);
+            }
+        });
+
+        ImageButton btnODS2 = findViewById(R.id.btnODS2);
+        btnODS2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin2 = new Intent(getApplicationContext(),ods2.class);
+                startActivity(telaLin2);
+            }
+        });
+
+        ImageButton btnODS3 = findViewById(R.id.btnODS3);
+        btnODS3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin3 = new Intent(getApplicationContext(),ods3.class);
+                startActivity(telaLin3);
+            }
+        });
+
+        ImageButton btnODS4 = findViewById(R.id.btnODS4);
+        btnODS4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin4 = new Intent(getApplicationContext(),ods4.class);
+                startActivity(telaLin4);
+            }
+        });
+
+        ImageButton btnODS5 = findViewById(R.id.btnODS5);
+        btnODS5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin5 = new Intent(getApplicationContext(),ods5.class);
+                startActivity(telaLin5);
+            }
+        });
+
         ImageButton btnODS11 = findViewById(R.id.btnODS11);
         btnODS11.setOnClickListener(new View.OnClickListener() {
             @Override
