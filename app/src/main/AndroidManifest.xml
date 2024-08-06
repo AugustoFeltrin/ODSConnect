@@ -28,11 +28,40 @@
             android:name=".ods11"
             android:exported="false" />
         <activity
+            android:name=".ods10"
+            android:exported="false" />
+        <activity
+            android:name=".ods9"
+            android:exported="false" />
+        <activity
+            android:name=".ods8"
+            android:exported="false" />
+        <activity
+            android:name=".ods7"
+            android:exported="false" />
+        <activity
+            android:name=".ods6"
+            android:exported="false" />
+        <activity
+            android:name=".ods5"
+            android:exported="false" />
+        <activity
+            android:name=".ods4"
+            android:exported="false" />
+        <activity
+            android:name=".ods3"
+            android:exported="false" />
+        <activity
+            android:name=".ods2"
+            android:exported="false" />
+        <activity
+            android:name=".ods1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

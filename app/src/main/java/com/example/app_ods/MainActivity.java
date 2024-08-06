@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnODS1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaLin1 = new Intent(getApplicationContext(),ods1.class);
+                Intent telaLin1 = new Intent(getApplicationContext(), ods1.class);
                 startActivity(telaLin1);
             }
         });
@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         btnODS11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaLin = new Intent(getApplicationContext(),ods11.class);
-                startActivity(telaLin);
+                Intent telaLin11 = new Intent(getApplicationContext(),ods11.class);
+                startActivity(telaLin11);
             }
         });
 
@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
         btnODS12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaLin = new Intent(getApplicationContext(),ods12.class);
-                startActivity(telaLin);
+                Intent telaLin12 = new Intent(getApplicationContext(),ods12.class);
+                startActivity(telaLin12);
             }
         });
 
@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
         btnODS13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent telaLin = new Intent(getApplicationContext(),ods13.class);
-                startActivity(telaLin);
+                Intent telaLin13 = new Intent(getApplicationContext(),ods13.class);
+                startActivity(telaLin13);
             }
         });
 
