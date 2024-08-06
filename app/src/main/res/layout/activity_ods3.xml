@@ -4,34 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ods13">
+    tools:context=".ods2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#3e7e45"
-        tools:context=".ods12">
+        android:background="#4c9c3c"
+        tools:context=".ods2">
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtTitulo"
             android:layout_width="268dp"
             android:layout_height="wrap_content"
-            android:text="AÇÃO CLIMÁTICA"
+            android:text="SAÚDE E BEM-ESTAR"
+            android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.148" />
+            app:layout_constraintVertical_bias="0.158" />
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtNumero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="13"
-            android:textColor="#00301f"
+            android:text="3"
+            android:textColor="#FFFFFF"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,15 +43,18 @@
 
         <TextView
             android:id="@+id/txtCorpo"
-            android:layout_width="276dp"
-            android:layout_height="wrap_content"
-            android:text="Os edifícios são responsáveis por mais de 30% das emissões globais de gases de efeito estufa, segundo a ONU. Portanto, são um dos principais contribuintes para as mudanças climáticas. Por essa razão, as construções sustentáveis têm um enorme potencial para combatê-las por meio de medidas como a eficiência energética."
+            android:layout_width="296dp"
+            android:layout_height="310dp"
+            android:text="Garantir saúde e bem-estar é vital para o desenvolvimento sustentável. Isso envolve oferecer acesso universal a cuidados de saúde de qualidade, fortalecer sistemas de saúde e expandir programas de vacinação. Além disso, é essencial abordar fatores sociais que influenciam a saúde, promover saúde mental e incentivar estilos de vida saudáveis. Investir na saúde ajuda a reduzir desigualdades e melhora a qualidade de vida para todos.   "
+            android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.573"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.441" />
 
         <Button
             android:id="@+id/btnVoltar"
@@ -58,7 +62,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
             android:text="VOLTAR"
-            android:textColor="#00301f"
+            android:textColor="#105702"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

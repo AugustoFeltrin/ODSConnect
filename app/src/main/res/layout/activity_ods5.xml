@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ods13">
+    tools:context=".ods2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#3e7e45"
-        tools:context=".ods12">
+        android:background="#fc3c24"
+        tools:context=".ods2">
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtTitulo"
             android:layout_width="268dp"
             android:layout_height="wrap_content"
-            android:text="AÇÃO CLIMÁTICA"
+            android:text="IGUALDADE DE GÊNERO"
+            android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.148" />
+            app:layout_constraintVertical_bias="0.158" />
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtNumero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="13"
-            android:textColor="#00301f"
+            android:text="5"
+            android:textColor="#FFFFFF"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,9 +42,10 @@
 
         <TextView
             android:id="@+id/txtCorpo"
-            android:layout_width="276dp"
-            android:layout_height="wrap_content"
-            android:text="Os edifícios são responsáveis por mais de 30% das emissões globais de gases de efeito estufa, segundo a ONU. Portanto, são um dos principais contribuintes para as mudanças climáticas. Por essa razão, as construções sustentáveis têm um enorme potencial para combatê-las por meio de medidas como a eficiência energética."
+            android:layout_width="315dp"
+            android:layout_height="347dp"
+            android:text="Promover a igualdade de gênero é essencial para um desenvolvimento justo e sustentável. Isso significa garantir que mulheres e meninas tenham as mesmas oportunidades que homens e meninos em todas as esferas da vida, incluindo educação, trabalho e participação política. É crucial eliminar a violência de gênero, garantir o acesso igualitário a serviços de saúde e promover a liderança feminina. Apoiar a igualdade de gênero não só fortalece a sociedade como um todo, mas também contribui para o progresso econômico e social, criando um ambiente mais equitativo e inclusivo para todos.    "
+            android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
             android:text="VOLTAR"
-            android:textColor="#00301f"
+            android:textColor="#fc3c24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

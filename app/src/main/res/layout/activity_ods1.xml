@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ods13">
+    tools:context=".ods1">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#3e7e45"
-        tools:context=".ods12">
+        android:background="#ec4b5d"
+        tools:context=".ods1">
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtTitulo"
             android:layout_width="268dp"
             android:layout_height="wrap_content"
-            android:text="AÇÃO CLIMÁTICA"
+            android:text="ERRADICAÇÃO DA POBREZA"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -27,11 +27,11 @@
             app:layout_constraintVertical_bias="0.148" />
 
         <TextView
-            android:id="@+id/txtCorpo"
+            android:id="@+id/txtNumero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="13"
-            android:textColor="#00301f"
+            android:text="1"
+            android:textColor="#e4243c"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,9 +42,10 @@
 
         <TextView
             android:id="@+id/txtCorpo"
-            android:layout_width="276dp"
-            android:layout_height="wrap_content"
-            android:text="Os edifícios são responsáveis por mais de 30% das emissões globais de gases de efeito estufa, segundo a ONU. Portanto, são um dos principais contribuintes para as mudanças climáticas. Por essa razão, as construções sustentáveis têm um enorme potencial para combatê-las por meio de medidas como a eficiência energética."
+            android:layout_width="315dp"
+            android:layout_height="347dp"
+            android:text="A erradicação da pobreza está profundamente ligada à melhoria das condições de vida e ao acesso a recursos essenciais. Políticas e práticas eficazes para combater a pobreza devem incluir a promoção do acesso a serviços básicos como saúde, educação e saneamento. Além disso, é crucial garantir oportunidades de emprego e uma rede de segurança social que ofereça suporte em situações de vulnerabilidade. A implementação de programas direcionados que promovam a inclusão social e econômica ajuda a reduzir a desigualdade e a criar um ambiente mais equitativo, contribuindo assim para a erradicação da pobreza em todas as suas formas e dimensões.     "
+            android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
             android:text="VOLTAR"
-            android:textColor="#00301f"
+            android:textColor="#105702"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
