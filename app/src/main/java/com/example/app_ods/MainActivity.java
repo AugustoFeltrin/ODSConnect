@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ImageButton btnODS6 = findViewById(R.id.btnODS6);
-        btnODS15.setOnClickListener(new View.OnClickListener() {
+        btnODS6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaLin = new Intent(getApplicationContext(),ods6.class);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ImageButton btnODS7 = findViewById(R.id.btnODS7);
-        btnODS15.setOnClickListener(new View.OnClickListener() {
+        btnODS7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaLin = new Intent(getApplicationContext(),ods7.class);
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ImageButton btnODS8 = findViewById(R.id.btnODS8);
-        btnODS15.setOnClickListener(new View.OnClickListener() {
+        btnODS8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaLin = new Intent(getApplicationContext(),ods8.class);
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ImageButton btnODS9 = findViewById(R.id.btnODS9);
-        btnODS15.setOnClickListener(new View.OnClickListener() {
+        btnODS9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaLin = new Intent(getApplicationContext(),ods9.class);
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ImageButton btnODS10 = findViewById(R.id.btnODS10);
-        btnODS15.setOnClickListener(new View.OnClickListener() {
+        btnODS10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent telaLin = new Intent(getApplicationContext(),ods10.class);
