@@ -105,6 +105,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton btnODS16 = findViewById(R.id.btnODS16);
+        btnODS16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods16.class);
+                startActivity(telaLin);
+            }
+        });
+
+        ImageButton btnODS17 = findViewById(R.id.btnODS17);
+        btnODS17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent telaLin = new Intent(getApplicationContext(),ods17.class);
+                startActivity(telaLin);
+            }
+        });
+
         ImageButton btnODS6 = findViewById(R.id.btnODS6);
         btnODS6.setOnClickListener(new View.OnClickListener() {
             @Override

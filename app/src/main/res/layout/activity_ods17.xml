@@ -4,35 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ods2">
+    tools:context=".ods17">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#4c9c3c"
-        tools:context=".ods2">
+        android:background="#19486A"
+        tools:context=".ods17"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
-            android:id="@+id/txtTitulo"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
-            android:text="Saúde e bem estar"
-            android:textAlignment="viewStart"
+            android:id="@+id/txtCorpo"
+            android:layout_width="200dp"
+            android:layout_height="46dp"
+            android:text="Parcerias e meios de implementação"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.701"
+            app:layout_constraintHorizontal_bias="0.772"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.158" />
+            app:layout_constraintVertical_bias="0.148" />
 
         <TextView
-            android:id="@+id/txtNumero"
+            android:id="@+id/txtCorpo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="3"
-            android:textColor="#14350E"
+            android:text="17"
+            android:textColor="#0099FF"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -43,18 +44,15 @@
 
         <TextView
             android:id="@+id/txtCorpo"
-            android:layout_width="296dp"
-            android:layout_height="310dp"
-            android:text="Garantir saúde e bem-estar é vital para o desenvolvimento sustentável. Isso envolve oferecer acesso universal a cuidados de saúde de qualidade, fortalecer sistemas de saúde e expandir programas de vacinação. Além disso, é essencial abordar fatores sociais que influenciam a saúde, promover saúde mental e incentivar estilos de vida saudáveis. Investir na saúde ajuda a reduzir desigualdades e melhora a qualidade de vida para todos.   "
-            android:textAlignment="viewStart"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:text="Ajudar os países em desenvolvimento a alcançar a sustentabilidade da dívida de longo prazo por meio de políticas coordenadas destinadas a promover o financiamento, a redução e a reestruturação da dívida, conforme apropriado, e tratar da dívida externa dos países pobres altamente endividados para reduzir o superendividamento."
             android:textColor="#FFFFFF"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.551" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/btnVoltar"

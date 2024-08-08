@@ -14,28 +14,28 @@
 
         <TextView
             android:id="@+id/txtCorpo"
-            android:layout_width="268dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
-            android:text="VIDA TERRESTRE"
+            android:text="Vida Terrestre"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintHorizontal_bias="0.811"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.148" />
+            app:layout_constraintVertical_bias="0.158" />
 
         <TextView
             android:id="@+id/txtCorpo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="15"
-            android:textColor="#105702"
+            android:textColor="#104206"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.192"
+            app:layout_constraintHorizontal_bias="0.198"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.129" />
@@ -64,7 +64,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.827" />
+            app:layout_constraintVertical_bias="0.870" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

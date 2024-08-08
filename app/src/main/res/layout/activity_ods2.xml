@@ -9,30 +9,30 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#e8c981"
+        android:background="#B19451"
         tools:context=".ods2">
 
         <TextView
             android:id="@+id/txtTitulo"
-            android:layout_width="268dp"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
-            android:text="FOME ZERO E AGRICULTURA SUSTENTÁVEL"
+            android:text="Fome zero e agricultura sustentável"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.706"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.158" />
+            app:layout_constraintVertical_bias="0.153" />
 
         <TextView
             android:id="@+id/txtNumero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
-            android:textColor="#FFFFFF"
+            android:textColor="#644D30"
             android:textSize="60sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         <TextView
             android:id="@+id/txtCorpo"
             android:layout_width="315dp"
-            android:layout_height="347dp"
+            android:layout_height="400dp"
             android:text="A luta contra a fome e a promoção da agricultura sustentável estão interligadas e são essenciais para garantir a segurança alimentar global. Para alcançar a meta de fome zero, é fundamental melhorar a produtividade agrícola e a sustentabilidade dos sistemas alimentares. Isso inclui a implementação de práticas agrícolas que respeitem o meio ambiente, como a rotação de culturas, a redução do uso de pesticidas e a conservação do solo. Além disso, apoiar pequenos produtores e comunidades rurais com acesso a tecnologias, financiamento e mercados pode aumentar a resiliência e a capacidade de produção alimentar. Investir em infraestruturas que melhorem a distribuição e o armazenamento dos alimentos também é crucial para reduzir perdas e desperdícios, garantindo que todos tenham acesso a uma alimentação nutritiva e suficiente.    "
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
@@ -52,7 +52,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.546" />
 
         <Button
             android:id="@+id/btnVoltar"
@@ -66,7 +67,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.827" />
+            app:layout_constraintVertical_bias="0.870" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
